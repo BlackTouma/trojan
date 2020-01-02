@@ -1,3 +1,9 @@
 # DO NOT FORK OR STAR!
 
-curl -O https://raw.githubusercontent.com/atrandys/trojan/master/trojan_install.sh && chmod +x trojan_install.sh && ./trojan_install.sh
+# 环境安装 （注意root环境下运行）
+> apt-get update -y
+
+> apt-get install build-essential devscripts debhelper cmake libboost-system-dev libboost-program-options-dev libssl-dev default-libmysqlclient-dev python3 curl openssl -y
+---
+# 安装命令：
+curl -O https://raw.githubusercontent.com/BlackTouma/trojan/master/trojan_mult.sh && chmod +x trojan_mult.sh && ./trojan_mult.sh
