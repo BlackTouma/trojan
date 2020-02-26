@@ -6,7 +6,7 @@
 > apt-get install build-essential devscripts debhelper cmake libboost-system-dev libboost-program-options-dev libssl-dev default-libmysqlclient-dev python3 curl openssl -y
 ---
 # 安装命令：
-curl -O https://raw.githubusercontent.com/BlackTouma/trojan/master/trojan_mult.sh && chmod +x trojan_mult.sh && ./trojan_mult.sh
+> curl -O https://raw.githubusercontent.com/atrandys/trojan/master/trojan_mult.sh && chmod +x trojan_mult.sh && ./trojan_mult.sh
 ---
 # 基本命令：
 > systemctl start trojan                开始
